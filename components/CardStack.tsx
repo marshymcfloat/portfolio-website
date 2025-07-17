@@ -3,6 +3,13 @@
 import React from "react";
 import { motion, HTMLMotionProps } from "framer-motion";
 
+const Card = ({ image }: { image: string }) => (
+  <div
+    className="w-full h-full rounded-2xl bg-cover saturate-[.7] bg-center shadow-xl"
+    style={{ backgroundImage: `url(${image})` }}
+  />
+);
+
 type CardData = {
   image: string;
   title: string;
@@ -12,13 +19,6 @@ type CardData = {
 type CardStackProps = {
   items: CardData[];
 } & HTMLMotionProps<"div">;
-
-const Card = ({ image }: { image: string }) => (
-  <div
-    className="w-full h-full rounded-2xl bg-cover saturate-[.7] bg-center shadow-xl"
-    style={{ backgroundImage: `url(${image})` }}
-  />
-);
 
 const overlayVariants = {
   initial: { opacity: 0 },
@@ -39,10 +39,9 @@ export default function CardStack({ items, ...rest }: CardStackProps) {
 
     if (position === 0) {
       return {
-        initial: { y: 0, x: 0, rotate: 0, scale: 1, filter: "blur(0px)" },
+        initial: { y: 0, x: 0, rotate: 0, scale: 1 }, // `filter` removed
         hover: {
           scale: 1.03,
-
           transition: { type: "spring", stiffness: 300, damping: 20 } as const,
         },
       };
@@ -54,14 +53,12 @@ export default function CardStack({ items, ...rest }: CardStackProps) {
         x: 0,
         scale: 1 - position * 0.05,
         rotate: `${position * -2}deg`,
-        filter: "blur(2px)",
         opacity: 0.8,
       },
       hover: {
         y: position * -25,
         x: position * 25,
         rotate: `${position * 4}deg`,
-        filter: "blur(0px)",
         opacity: 1,
 
         transition: {
@@ -94,7 +91,7 @@ export default function CardStack({ items, ...rest }: CardStackProps) {
 
             {isTopCard && (
               <motion.div
-                className="absolute inset-0 p-4 sm:p-6 flex flex-col  justify-end bg-gradient-to-t from-black/80 to-transparent z-20"
+                className="absolute inset-0 p-4 sm:p-6 flex flex-col justify-end bg-gradient-to-t from-black/80 to-transparent z-20"
                 variants={overlayVariants}
               >
                 <motion.h1

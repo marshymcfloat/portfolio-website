@@ -69,7 +69,7 @@ const XStack = [
   { image: "/XLogin.png", title: "", description: "" },
   {
     image: "/XLanding.png",
-    title: "Seld-made X Clone ",
+    title: "Self-made X Clone ",
     description: "Clone of X app without AI Assistance..",
   },
 ];
@@ -90,9 +90,7 @@ export default function Home() {
 
   return (
     <main className="flex flex-col min-h-screen w-full mx-auto p-4 sm:p-6 lg:p-8">
-      {}
-      {}
-      <div className="flex flex-col lg:flex-row items-center justify-center gap-16 lg:gap-8 py-10 lg:py-0 lg:flex-grow">
+      <div className="flex flex-col lg:flex-row items-center justify-center gap-16 lg:gap-8 mt-24">
         <CardStack
           items={CapstoneStack}
           onClick={() => {
@@ -115,12 +113,9 @@ export default function Home() {
           }}
         />
       </div>
-
       <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end gap-8 mt-auto pt-8">
-        {}
         <div className="relative">
           <p className="text-neutral-400 pl-1">Hi, my name is Daniel Canoy</p>
-          {}
           <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-9xl font-bold leading-tight font-krona-one">
             <span className="text-red-400">Front-end</span>
             <br />
