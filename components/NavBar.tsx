@@ -11,7 +11,6 @@ export default function NavBar() {
   const navLinks = [
     { name: "home", href: "/" },
     { name: "about", href: "/about" },
-    { name: "login", href: "/login" },
   ];
 
   const handleLinkClick = (href: string) => {
