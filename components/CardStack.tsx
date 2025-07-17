@@ -1,8 +1,24 @@
 "use client";
 
-import { motion } from "motion/react";
-import Card from "./Card";
-import { HTMLAttributes } from "react";
+import React from "react";
+import { motion, HTMLMotionProps } from "framer-motion";
+
+type CardData = {
+  image: string;
+  title: string;
+  description: string;
+};
+
+type CardStackProps = {
+  items: CardData[];
+} & HTMLMotionProps<"div">;
+
+const Card = ({ image }: { image: string }) => (
+  <div
+    className="w-full h-full rounded-2xl bg-cover saturate-[.7] bg-center shadow-xl"
+    style={{ backgroundImage: `url(${image})` }}
+  />
+);
 
 const overlayVariants = {
   initial: { opacity: 0 },
@@ -17,20 +33,7 @@ const textVariants = {
   hover: { y: 0, opacity: 1 },
 };
 
-type CardData = {
-  image: string;
-  title: string;
-  description: string;
-};
-
-type CardStackProps = {
-  items: CardData[];
-};
-
-export default function CardStack({
-  items,
-  ...rest
-}: CardStackProps & HTMLAttributes<HTMLDivElement>) {
+export default function CardStack({ items, ...rest }: CardStackProps) {
   const generateCardVariants = (index: number) => {
     const position = items.length - 1 - index;
 
@@ -39,7 +42,8 @@ export default function CardStack({
         initial: { y: 0, x: 0, rotate: 0, scale: 1, filter: "blur(0px)" },
         hover: {
           scale: 1.03,
-          transition: { type: "spring", stiffness: 300, damping: 20 },
+
+          transition: { type: "spring", stiffness: 300, damping: 20 } as const,
         },
       };
     }
@@ -59,12 +63,13 @@ export default function CardStack({
         rotate: `${position * 4}deg`,
         filter: "blur(0px)",
         opacity: 1,
+
         transition: {
           type: "spring",
           stiffness: 260,
           damping: 25,
           delay: position * 0.07,
-        },
+        } as const,
       },
     };
   };
@@ -80,7 +85,7 @@ export default function CardStack({
         const isTopCard = index === items.length - 1;
         return (
           <motion.div
-            key={item.image + 1}
+            key={item.image + index}
             className="absolute w-full h-full"
             style={{ zIndex: index }}
             variants={generateCardVariants(index)}
@@ -89,7 +94,7 @@ export default function CardStack({
 
             {isTopCard && (
               <motion.div
-                className="absolute inset-0 p-4 sm:p-6 flex flex-col justify-end bg-gradient-to-t from-black/80 to-transparent z-20"
+                className="absolute inset-0 p-4 sm:p-6 flex flex-col  justify-end bg-gradient-to-t from-black/80 to-transparent z-20"
                 variants={overlayVariants}
               >
                 <motion.h1

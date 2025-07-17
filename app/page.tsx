@@ -2,9 +2,8 @@
 
 import CardStack from "@/components/CardStack";
 import { useRouter } from "next/navigation";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { projectSliceAction } from "@/Slice/ProjectSlice";
-import BackgroundOrbs from "@/components/BackgroundOrbs";
 
 const BeautyFeelStack = [
   { image: "/SalesBF.png", title: "", description: "" },
