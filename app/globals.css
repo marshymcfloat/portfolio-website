@@ -1,26 +1,50 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@theme {
+  --color-BGDark: #252323;
+  --color-Custom_lavender: #b7a0d3;
+  --color-Custom_orange: #fb4d3d;
+  --color-Custom_gray: #c4bfca;
+  --font-krona-one: "Krona One";
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+@keyframes infinite-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-infinite-scroll-css {
+  animation: infinite-scroll 40s linear infinite;
+}
+
+html {
+  scrollbar-width: thin;
+
+  scrollbar-color: #d96245 #2c2c2c;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2c2c2c;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d96245;
+  border-radius: 20px;
+  border: 2px solid #2c2c2c;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #b7513a;
 }

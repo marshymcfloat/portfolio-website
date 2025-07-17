@@ -1,103 +1,142 @@
-import Image from "next/image";
+"use client";
 
+import CardStack from "@/components/CardStack";
+import { useRouter } from "next/navigation";
+import { useDispatch, useSelector } from "react-redux";
+import { projectSliceAction } from "@/Slice/ProjectSlice";
+import BackgroundOrbs from "@/components/BackgroundOrbs";
+
+const BeautyFeelStack = [
+  { image: "/SalesBF.png", title: "", description: "" },
+  { image: "/DashboardBF.png", title: "", description: "" },
+  {
+    image: "/LandingBF.png",
+    title: "BeautyFeel",
+    description: "BeautyFeel Business System",
+  },
+];
+
+const BeautyFeelForSlice = {
+  projectId: "BTYFL1",
+  title: "BeautyFeel Business System",
+  images: [
+    "/LandingBF.png",
+    "/DashboardBF.png",
+    "/ManageBF.png",
+    "/SalesBF.png",
+  ],
+  description:
+    "A comprehensive business management system designed for beauty salons. It includes features for appointment scheduling, client management, inventory tracking, and sales reporting. The goal was to create a clean, intuitive interface to streamline daily operations for salon owners and staff.",
+  githubLink: "https://github.com/marshymcfloat/beautyfeel_prisma",
+  liveLink: "https://beautyfeel.net",
+  technology: [
+    "Next.JS",
+    "TailwindCSS",
+    "ReduxJS",
+    "Prisma",
+    "PostgreSQL",
+    "TypeScript",
+  ],
+};
+
+const CapstoneStack = [
+  { image: "/SubjectEval.png", title: "", description: "" },
+  { image: "/DashboardEval.png", title: "", description: "" },
+  {
+    image: "/LandingEval.png",
+    title: "Capstone Evaluation System",
+    description: "HTU's Instructor Evaluation System.",
+  },
+];
+
+const CapstoneForSlice = {
+  projectId: "CPSTN1",
+  title: "HTU's Instructor Evaluation System",
+  images: [
+    "/LandingEval.png",
+    "/DashboardEval.png",
+    "/SubjectEval.png",
+    "/QuestionsEval.png",
+  ],
+  description:
+    "A system that we made for our finals capstone project. The purpose of this is to help our university to have a better way to evaluate and receive summary grades of their own instructors.",
+  githubLink: "https://github.com/marshymcfloat/evaluationSystem",
+  liveLink: "",
+  technology: ["Vanilla Javascript", "MongoDB", "NodeJS", "ExpressJS", "EJS"],
+};
+
+const XStack = [
+  { image: "/XHomepage.png", title: "", description: "" },
+  { image: "/XLogin.png", title: "", description: "" },
+  {
+    image: "/XLanding.png",
+    title: "Seld-made X Clone ",
+    description: "Clone of X app without AI Assistance..",
+  },
+];
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+  const route = useRouter();
+  const dispatch = useDispatch();
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+  const XStackForSlice = {
+    projectId: "XCLONE1",
+    title: "Self-made X Clone",
+    images: ["/XLanding.png", "/XHomepage.png", "/XLogin.png"],
+    description:
+      "A clone of the X (formerly Twitter) application, built from scratch to practice front-end and back-end skills. This project focuses on core social media features like posting, following, and a real-time feed.",
+    githubLink: "https://github.com/your-repo/x-clone",
+    liveLink: "",
+    technology: ["Next.JS", "TailwindCSS", "Prisma", "NextAuth", "TypeScript"],
+  };
+
+  return (
+    <main className="flex flex-col min-h-screen w-full mx-auto p-4 sm:p-6 lg:p-8">
+      {}
+      {}
+      <div className="flex flex-col lg:flex-row items-center justify-center gap-16 lg:gap-8 py-10 lg:py-0 lg:flex-grow">
+        <CardStack
+          items={CapstoneStack}
+          onClick={() => {
+            dispatch(projectSliceAction.selectProject(CapstoneForSlice));
+            route.push("/project/capstone");
+          }}
+        />
+        <CardStack
+          items={BeautyFeelStack}
+          onClick={() => {
+            dispatch(projectSliceAction.selectProject(BeautyFeelForSlice));
+            route.push("/project/beautyfeel");
+          }}
+        />
+        <CardStack
+          items={XStack}
+          onClick={() => {
+            dispatch(projectSliceAction.selectProject(XStackForSlice));
+            route.push("/project/x-clone");
+          }}
+        />
+      </div>
+
+      <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end gap-8 mt-auto pt-8">
+        {}
+        <div className="relative">
+          <p className="text-neutral-400 pl-1">Hi, my name is Daniel Canoy</p>
+          {}
+          <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-9xl font-bold leading-tight font-krona-one">
+            <span className="text-red-400">Front-end</span>
+            <br />
+            <span className="text-purple-400">Developer</span>
+          </h1>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+
+        <div className="flex flex-col items-start lg:items-end gap-4 text-left lg:text-2xl  lg:text-right">
+          <p className="max-w-md text-neutral-400">
+            A front-end developer who transforms ideas into clean, responsive,
+            and impactful digital experiences. I specialize in building
+            intuitive user interfaces with a focus on modern web standards.
+          </p>
+        </div>
+      </div>
+    </main>
   );
 }
