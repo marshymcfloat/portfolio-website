@@ -3,6 +3,7 @@ import ReduxProvider from "@/components/ReduxProvider";
 import NavBar from "@/components/NavBar";
 import { Krona_One } from "next/font/google";
 import BackgroundOrbs from "@/components/BackgroundOrbs";
+import { icons } from "lucide-react";
 
 const kronaOne = Krona_One({
   subsets: ["latin"],
@@ -10,6 +11,13 @@ const kronaOne = Krona_One({
   variable: "--font-krona-one",
 });
 
+export const metadata = {
+  title: "Dani.",
+  description: "know more about Daniel Canoy",
+  icons: {
+    icon: "/favicon.ico",
+  },
+};
 export default function RootLayout({
   children,
   modal,

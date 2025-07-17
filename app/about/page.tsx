@@ -328,11 +328,13 @@ export default function AboutPage() {
               <div>
                 <a
                   href="https://www.beautyfeel.net/"
+                  target="_blank"
                   className="font-bold text-Custom_orange hover:underline mr-4"
                 >
                   Live Demo →
                 </a>
                 <a
+                  target="_blank"
                   href="https://github.com/marshymcfloat/beautyfeel_prisma"
                   className="font-bold text-gray-400 hover:underline"
                 >
