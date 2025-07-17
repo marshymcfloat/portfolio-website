@@ -327,12 +327,15 @@ export default function AboutPage() {
               </div>
               <div>
                 <a
-                  href="#"
+                  href="https://www.beautyfeel.net/"
                   className="font-bold text-Custom_orange hover:underline mr-4"
                 >
                   Live Demo →
                 </a>
-                <a href="#" className="font-bold text-gray-400 hover:underline">
+                <a
+                  href="https://github.com/marshymcfloat/beautyfeel_prisma"
+                  className="font-bold text-gray-400 hover:underline"
+                >
                   GitHub Repo →
                 </a>
               </div>
