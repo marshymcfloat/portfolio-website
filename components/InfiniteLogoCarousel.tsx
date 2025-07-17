@@ -7,7 +7,7 @@ const technologies = [
   { name: "React", src: "/React.svg" },
   { name: "Next.js", src: "/nextjs-icon.svg" },
   { name: "Node.js", src: "/Nodejs.svg" },
-  { name: "Express.js", src: "/express.svg" },
+  { name: "Redux", src: "/Redux.svg" },
   { name: "Tailwind CSS", src: "/tailwind.svg" },
   { name: "PostgreSQL", src: "/PostgresSQL.svg" },
   { name: "MongoDB", src: "/MongoDB.svg" },
