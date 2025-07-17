@@ -6,7 +6,7 @@ import {
   useMotionTemplate,
   useScroll,
   useTransform,
-} from "motion/react";
+} from "framer-motion";
 import { MotionValue } from "framer-motion";
 import InfiniteLogoCarousel from "@/components/InfiniteLogoCarousel";
 import FadeInWhenVisible from "@/components/FadeInWhenVisible ";
