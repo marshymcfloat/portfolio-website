@@ -10,6 +10,7 @@
 
 body {
   position: relative;
+  scroll-behavior: smooth;
 }
 
 @keyframes infinite-scroll {
