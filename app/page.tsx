@@ -38,6 +38,33 @@ const BeautyFeelForSlice = {
   ],
 };
 
+const TalentNestStack = [
+  { image: "/TNApplicants.png", title: "", description: "" },
+  { image: "/TNDashboard.png", title: "", description: "" },
+  {
+    image: "/TNLanding.png",
+    title: "Talent Nest",
+    description: "A platform for discovering and nurturing new talent.",
+  },
+];
+const TalentNestForSlice = {
+  projectId: "TLNTNST1",
+  title: "Talent Nest",
+  images: ["/TNLanding.png", "/TNDashboard.png", "/TNApplicants.png"],
+  description:
+    "A comprehensive platform for discovering, tracking, and nurturing new talent. It provides tools for managing applications, scheduling interviews, and tracking candidate progress, streamlining the recruitment process for talent scouts and HR professionals.",
+  githubLink: "https://github.com/marshymcfloat/new_talent_nest",
+  liveLink: "https://talentnesttt.vercel.app/",
+  technology: [
+    "Next.JS",
+    "TailwindCSS",
+    "ReduxJS",
+    "Prisma",
+    "PostgreSQL",
+    "TypeScript",
+  ],
+};
+
 const CapstoneStack = [
   { image: "/SubjectEval.png", title: "", description: "" },
   { image: "/DashboardEval.png", title: "", description: "" },
@@ -109,6 +136,13 @@ export default function Home() {
           items={XStack}
           onClick={() => {
             dispatch(projectSliceAction.selectProject(XStackForSlice));
+            route.push("/project/x-clone");
+          }}
+        />
+        <CardStack
+          items={TalentNestStack}
+          onClick={() => {
+            dispatch(projectSliceAction.selectProject(TalentNestForSlice));
             route.push("/project/x-clone");
           }}
         />
