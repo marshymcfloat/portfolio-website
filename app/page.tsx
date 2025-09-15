@@ -143,7 +143,7 @@ export default function Home() {
           items={TalentNestStack}
           onClick={() => {
             dispatch(projectSliceAction.selectProject(TalentNestForSlice));
-            route.push("/project/x-clone");
+            route.push("/project/talent-nest");
           }}
         />
       </div>
