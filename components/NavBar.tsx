@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { usePathname, useRouter } from "next/navigation";
 import { FiMenu, FiX } from "react-icons/fi";
+import Image from "next/image";
 
 export default function NavBar() {
   const router = useRouter();
@@ -24,7 +25,20 @@ export default function NavBar() {
   return (
     <nav className="absolute top-0 left-0 w-full z-50 bg-gray-900/80 backdrop-blur-sm border-b border-gray-700">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-end h-16">
+        <div className="flex items-center justify-between h-16">
+          <div
+            className="flex-shrink-0 cursor-pointer"
+            onClick={() => handleLinkClick("/")}
+          >
+            <Image
+              src="/dani-logo.png"
+              alt="Dani Logo"
+              width={120}
+              height={50}
+              className="h-10 w-auto"
+            />
+          </div>
+
           <div className="hidden md:flex md:items-center md:space-x-8">
             {navLinks.map((link) => (
               <span
@@ -52,10 +66,8 @@ export default function NavBar() {
         </div>
       </div>
 
-      {}
       {isMenuOpen && (
         <div className="md:hidden">
-          {}
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {navLinks.map((link) => (
               <a
