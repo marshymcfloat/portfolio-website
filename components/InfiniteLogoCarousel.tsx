@@ -3,15 +3,19 @@
 import React from "react";
 
 const technologies = [
-  { name: "TypeScript", src: "/typescript.png" },
-  { name: "React", src: "/React.svg" },
-  { name: "Next.js", src: "/nextjs-icon.svg" },
   { name: "Node.js", src: "/Nodejs.svg" },
+  { name: "TypeScript", src: "/typescript.png" },
+  { name: "Next.js", src: "/nextjs-icon.svg" },
   { name: "Redux", src: "/Redux.svg" },
   { name: "Tailwind CSS", src: "/tailwind.svg" },
+  { name: "React", src: "/React.svg" },
   { name: "PostgreSQL", src: "/PostgresSQL.svg" },
   { name: "MongoDB", src: "/MongoDB.svg" },
   { name: "Prisma", src: "/prism.png" },
+  { name: "Nest.js", src: "/Nestjs.svg" },
+  { name: "React Native", src: "/ReactNative.svg" },
+  { name: "Turborepo", src: "/turborepo.svg" },
+  { name: "Supabase", src: "/supabase.svg" },
 ];
 
 const InfiniteLogoCarousel = () => {

@@ -1,13 +1,13 @@
 "use client";
 
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
 import {
   motion,
   useMotionTemplate,
   useScroll,
   useTransform,
 } from "motion/react";
-import { MotionValue } from "framer-motion";
+import { animate, MotionValue } from "framer-motion";
 import InfiniteLogoCarousel from "@/components/InfiniteLogoCarousel";
 import FadeInWhenVisible from "@/components/FadeInWhenVisible ";
 
@@ -66,7 +66,7 @@ const FloatingProjectImage = ({
 };
 
 export default function AboutPage() {
-  const containerRef = useRef(null);
+  const containerRef = useRef<HTMLDivElement>(null);
 
   const { scrollYProgress } = useScroll({
     target: containerRef,
@@ -79,8 +79,43 @@ export default function AboutPage() {
     [0, 1],
     ["3rem", "1.25rem"]
   );
-
   const opacity = useTransform(scrollYProgress, [0, 1], [0.25, 1]);
+
+  useEffect(() => {
+    if (window.history.scrollRestoration) {
+      const originalScrollRestoration = window.history.scrollRestoration;
+
+      window.history.scrollRestoration = "manual";
+
+      window.scrollTo(0, 0);
+
+      return () => {
+        window.history.scrollRestoration = originalScrollRestoration;
+      };
+    }
+  }, []);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      if (containerRef.current) {
+        const element = containerRef.current;
+        const targetPosition =
+          element.offsetTop + element.offsetHeight - window.innerHeight;
+
+        const animation = animate(window.scrollY, targetPosition, {
+          duration: 1.5,
+          ease: "easeInOut",
+          onUpdate: (latestValue) => {
+            window.scrollTo(0, latestValue);
+          },
+        });
+
+        return () => animation.stop();
+      }
+    }, 100);
+
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
     <main className="">
@@ -99,7 +134,7 @@ export default function AboutPage() {
             endRotate={-8}
           />
           <FloatingProjectImage
-            src={"/XHomepage.png"}
+            src={"/LandingClarity.png"}
             scrollYProgress={scrollYProgress}
             width="40vw"
             maxWidth="400px"
@@ -123,7 +158,7 @@ export default function AboutPage() {
             endRotate={10}
           />
           <FloatingProjectImage
-            src={"/XLanding.png"}
+            src={"/TNJobs.png"}
             scrollYProgress={scrollYProgress}
             width="25vw"
             maxWidth="250px"
@@ -164,7 +199,6 @@ export default function AboutPage() {
         </div>
       </div>
 
-      {}
       <div className="container mx-auto px-4 sm:px-6 py-16 md:py-24">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 items-center">
           <FadeInWhenVisible>

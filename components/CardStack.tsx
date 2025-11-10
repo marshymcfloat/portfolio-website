@@ -39,7 +39,7 @@ export default function CardStack({ items, ...rest }: CardStackProps) {
 
     if (position === 0) {
       return {
-        initial: { y: 0, x: 0, rotate: 0, scale: 1 }, // `filter` removed
+        initial: { y: 0, x: 0, rotate: 0, scale: 1 },
         hover: {
           scale: 1.03,
           transition: { type: "spring", stiffness: 300, damping: 20 } as const,
