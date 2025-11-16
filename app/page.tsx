@@ -12,17 +12,18 @@ export default function Home() {
 
   return (
     <main className="flex flex-col min-h-screen w-full mx-auto p-4 sm:p-6 lg:p-8 overflow-hidden">
-      <div className="flex flex-col lg:flex-row items-center justify-center gap-16 lg:gap-8 mt-24">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 lg:gap-12 mt-24 max-w-7xl mx-auto w-full px-4">
         {projects.map((project) => (
-          <CardStack
-            key={project.projectId}
-            items={project.stackImages}
-            onClick={() => {
-              dispatch(projectSliceAction.selectProject(project));
+          <div key={project.projectId} className="flex justify-center">
+            <CardStack
+              items={project.stackImages}
+              onClick={() => {
+                dispatch(projectSliceAction.selectProject(project));
 
-              router.push(`/project/${project.slug}`);
-            }}
-          />
+                router.push(`/project/${project.slug}`);
+              }}
+            />
+          </div>
         ))}
       </div>
 

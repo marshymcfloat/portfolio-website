@@ -136,6 +136,34 @@ export const projects: Project[] = [
       "TypeScript",
     ],
   },
+  {
+    slug: "alessence",
+    projectId: "ALSSNC1",
+    title: "Alessence",
+    stackImages: [
+      { image: "/AlessenceExamForm.png", title: "", description: "" },
+      { image: "/AlessenceExamGenerator.png", title: "", description: "" },
+      { image: "/AlessenceDashboard.png", title: "", description: "" },
+      { image: "/AlessenceLanding.png", title: "", description: "" },
+      {
+        image: "/AlessenceLanding.png",
+        title: "Alessence",
+        description:
+          "A comprehensive study management platform designed specifically for accountancy students.",
+      },
+    ],
+    images: [
+      "/AlessenceLanding.png",
+      "/AlessenceDashboard.png",
+      "/AlessenceExamGenerator.png",
+      "/AlessenceExamForm.png",
+    ],
+    description:
+      "Alessence is a comprehensive study management platform designed specifically for accountancy students. It combines task management with a Kanban board, AI-powered exam generation using Google Gemini, and file organization to help students stay on top of their studies. The platform features subject-based organization, deadline tracking, and performance analytics to streamline the learning process.",
+    githubLink: "https://github.com/marshymcfloat/Alessence",
+    liveLink: "https://alessence.vercel.app",
+    technology: ["Turborepo", "NestJS", "Next.js", "PostgreSQL", "Prisma"],
+  },
 ];
 
 export const getProjectBySlug = (slug: ParamValue): Project | undefined => {
