@@ -16,6 +16,7 @@ const technologies = [
   { name: "React Native", src: "/ReactNative.svg" },
   { name: "Turborepo", src: "/turborepo.svg" },
   { name: "Supabase", src: "/supabase.svg" },
+  { name: "Jest", src: "/jest.svg" },
 ];
 
 const InfiniteLogoCarousel = () => {
