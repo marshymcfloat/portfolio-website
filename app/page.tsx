@@ -27,21 +27,24 @@ export default function Home() {
         ))}
       </div>
 
-      <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end gap-8 mt-auto pt-8">
+      <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end gap-8 mt-auto pt-8 ">
         <div className="relative">
-          <p className="text-neutral-400 pl-1">Hi, my name is Daniel Canoy</p>
+          <p className="text-neutral-400 pl-1 text-lg ">
+            Hi, my name is Daniel Canoy. An aspiring
+          </p>
           <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-9xl font-bold leading-tight font-krona-one">
-            <span className="text-red-400">Front-end</span>
+            <span className="text-red-400">Full-stack</span>
             <br />
             <span className="text-purple-400">Developer</span>
           </h1>
         </div>
 
-        <div className="flex flex-col items-start lg:items-end gap-4 text-left lg:text-2xl  lg:text-right">
-          <p className="max-w-md text-neutral-400">
-            A front-end developer who transforms ideas into clean, responsive,
-            and impactful digital experiences. I specialize in building
-            intuitive user interfaces with a focus on modern web standards.
+        <div className="flex flex-col items-start lg:items-end gap-4 text-left lg:text-2xl lg:text-right">
+          <p className="max-w-md text-neutral-400 leading-8">
+            An aspiring full-stack developer dedicated to building end-to-end
+            web applications. I specialize in creating seamless user interfaces
+            with Next.js while architecting scalable, enterprise-ready backends
+            using NestJS, Prisma, and PostgreSQL.
           </p>
         </div>
       </div>

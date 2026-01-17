@@ -41,7 +41,7 @@ const FloatingProjectImage = ({
   const rotate = useTransform(
     scrollYProgress,
     [0, 1],
-    [startRotate, endRotate]
+    [startRotate, endRotate],
   );
 
   return (
@@ -77,7 +77,7 @@ export default function AboutPage() {
   const mobileFontSize = useTransform(
     scrollYProgress,
     [0, 1],
-    ["3rem", "1.25rem"]
+    ["3rem", "1.25rem"],
   );
   const opacity = useTransform(scrollYProgress, [0, 1], [0.25, 1]);
 
@@ -220,44 +220,42 @@ export default function AboutPage() {
               <p className="text-base md:text-lg text-gray-300 leading-relaxed">
                 I'm a{" "}
                 <span className="text-Custom_orange">full-stack developer</span>{" "}
-                based in the beautiful city of Puerto Princesa, Palawan. For me,
-                coding isn't just about building applications; it's about{" "}
-                <span className="text-Custom_orange">
-                  solving real-world problems
-                </span>{" "}
-                with elegant and efficient solutions. I thrive on turning
-                complex challenges into simple, beautiful, and intuitive digital
-                experiences.
+                based in Puerto Princesa, Palawan, specializing in the{" "}
+                <span className="text-Custom_orange">PERN stack</span>{" "}
+                (PostgreSQL, Express/NestJS, React/Next.js, Node.js). I build
+                scalable, type-safe applications where every layer—from the
+                database schema to the client-side interaction—is architected
+                for performance and maintainability.
               </p>
             </FadeInWhenVisible>
             <FadeInWhenVisible>
               <p className="text-base md:text-lg text-gray-300 leading-relaxed mt-4">
-                My journey into tech began in senior high school, where I took
-                the IT Strand at STI Puerto Princesa. I was immediately
-                captivated by the process of creating websites, finding joy in
-                bringing ideas to life with code, animations, and transitions.
-                An encouraging instructor saw my potential and became a key
-                mentor in my early learning. This passion was solidified during
-                my final year capstone project in college.{" "}
+                My journey began in senior high school at STI Puerto Princesa
+                and culminated in a{" "}
                 <span className="text-Custom_orange">
-                  I took the lead on development{" "}
+                  Bachelor of Information Technology
                 </span>{" "}
-                and built the entire system myself. The moment I successfully
-                implemented a feature for it to send automated emails was a
-                breakthrough for me—it was thrilling and made me realize the
-                real-world power of code. Since then,{" "}
+                degree from{" "}
                 <span className="text-Custom_orange">
-                  I've dedicated myself to continuous learning
+                  Holy Trinity University
                 </span>{" "}
-                , mastering modern stacks like Next.js and React, and turning
-                that initial spark of curiosity into a dedicated career.
+                (2025). During my final year, I led the development of a
+                university evaluation system as my capstone project.
+              </p>
+              <p className="text-base md:text-lg text-gray-300 leading-relaxed mt-4">
+                Currently, I am developing several projects, including{" "}
+                <span className="text-Custom_orange">Alessence</span>, an
+                AI-powered study platform. These experiences pushed me to master{" "}
+                <span className="text-Custom_orange">Next.js</span> for the
+                frontend and <span className="text-Custom_orange">NestJS</span>{" "}
+                for a modular backend, confirming my passion for building robust
+                full-stack solutions.
               </p>
             </FadeInWhenVisible>
           </div>
         </div>
       </div>
 
-      {}
       <div className="py-16 md:py-24">
         <div className="container mx-auto px-4 sm:px-6 text-center">
           <FadeInWhenVisible>
@@ -289,8 +287,10 @@ export default function AboutPage() {
                   Clean & Scalable Code
                 </h3>
                 <p className="text-gray-300">
-                  I write code that my future self (and other developers) will
-                  thank me for. It’s maintainable, readable, and built to grow.
+                  I follow modular design patterns and leverage TypeScript to
+                  write code that is predictable and ready for growth. Whether
+                  it's a Next.js frontend or a NestJS microservice, I build for
+                  long-term maintainability.
                 </p>
               </div>
             </FadeInWhenVisible>
@@ -310,7 +310,7 @@ export default function AboutPage() {
         </div>
       </div>
 
-      {}
+      {/* Project Highlight Section */}
       <div className="container mx-auto px-4 sm:px-6 py-16 md:py-24">
         <FadeInWhenVisible>
           <h2 className="text-2xl md:text-3xl  text-Custom_lavender font-bold text-center mb-12 font-krona-one">
@@ -322,8 +322,8 @@ export default function AboutPage() {
           <FadeInWhenVisible>
             <div className="p-4 bg-gray-800 rounded-lg shadow-xl">
               <img
-                src="/LandingBF.png"
-                alt="Project X Homepage"
+                src="/AlessenceLanding.png"
+                alt="Alessence Project Homepage"
                 className="rounded-md"
               />
             </div>
@@ -331,23 +331,21 @@ export default function AboutPage() {
           <FadeInWhenVisible>
             <div>
               <h3 className="text-xl md:text-2xl font-bold text-Custom_orange">
-                BeautyFeel System
+                Alessence 🇵🇭
               </h3>
               <p className="my-4 text-base md:text-lg text-gray-300">
-                An intuitive platform designed to simplify appointment
-                management for salon staff and their clients. The core challenge
-                was to empower employees with an easy-to-use tool for client
-                accommodation while simultaneously reducing missed appointments.
-                I solved this by implementing automated reminders and a
-                real-time booking interface using WebSockets, ensuring a smooth,
-                coordinated workflow for the entire team.
+                A comprehensive study management platform designed specifically
+                for accountancy and law students in the Philippines. It combines
+                visual task management, AI-powered exam generation using Google
+                Gemini, and subject-organized file storage to streamline CPA and
+                Bar exam preparation.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 <span className="bg-black text-white text-sm font-medium px-2.5 py-0.5 rounded">
-                  NextJS
+                  Next.js
                 </span>
-                <span className="bg-green-900/50 text-green-300 text-sm font-medium px-2.5 py-0.5 rounded">
-                  Node.js
+                <span className="bg-red-900/50 text-red-300 text-sm font-medium px-2.5 py-0.5 rounded">
+                  NestJS
                 </span>
                 <span className="bg-blue-900/50 text-white text-sm font-medium px-2.5 py-0.5 rounded">
                   TailwindCSS
@@ -358,10 +356,13 @@ export default function AboutPage() {
                 <span className="bg-blue-900/70 text-white text-sm font-medium px-2.5 py-0.5 rounded">
                   PostgreSQL
                 </span>
+                <span className="bg-indigo-900/50 text-indigo-300 text-sm font-medium px-2.5 py-0.5 rounded">
+                  Google Gemini
+                </span>
               </div>
               <div>
                 <a
-                  href="https://www.beautyfeel.net/"
+                  href="https://alessence.vercel.app/"
                   target="_blank"
                   className="font-bold text-Custom_orange hover:underline mr-4"
                 >
@@ -369,7 +370,7 @@ export default function AboutPage() {
                 </a>
                 <a
                   target="_blank"
-                  href="https://github.com/marshymcfloat/beautyfeel_prisma"
+                  href="https://github.com/marshymcfloat/Alessence"
                   className="font-bold text-gray-400 hover:underline"
                 >
                   GitHub Repo →

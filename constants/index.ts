@@ -49,20 +49,15 @@ export const projects: Project[] = [
     projectId: "BTYFL1",
     title: "BeautyFeel Business System",
     stackImages: [
-      { image: "/SalesBF.png", title: "", description: "" },
-      { image: "/DashboardBF.png", title: "", description: "" },
+      { image: "/bfBookings.png", title: "", description: "" },
+      { image: "/bfServices.png", title: "", description: "" },
       {
-        image: "/LandingBF.png",
+        image: "/bfPublicLanding.png",
         title: "BeautyFeel",
         description: "BeautyFeel Business System",
       },
     ],
-    images: [
-      "/LandingBF.png",
-      "/DashboardBF.png",
-      "/ManageBF.png",
-      "/SalesBF.png",
-    ],
+    images: ["/bfPublicLanding.png", "/bfServices.png", "/bfBookings.png"],
     description:
       "A comprehensive business management system designed for beauty salons. It includes features for appointment scheduling, client management, inventory tracking, and sales reporting. The goal was to create a clean, intuitive interface to streamline daily operations for salon owners and staff.",
     githubLink: "https://github.com/marshymcfloat/beautyfeel_prisma",
