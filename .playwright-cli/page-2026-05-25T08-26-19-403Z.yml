@@ -1,0 +1,337 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "DC©" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - link "Email" [ref=e6] [cursor=pointer]:
+        - /url: mailto:canoydaniel06@gmail.com
+  - main [ref=e7]:
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - heading "Daniel Canoy" [level=1] [ref=e10]
+        - generic [ref=e11]: Full-stack Developer · Palawan, PH
+      - generic [ref=e13]: scroll
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - generic:
+          - generic: Works
+          - generic: ── selected · 10
+        - generic [ref=e18]:
+          - generic [ref=e20]:
+            - heading "Works" [level=2] [ref=e21]
+            - generic [ref=e22]: "[ 10 ]"
+          - generic [ref=e23]:
+            - link "Jay Rockwell Entertainment screenshot 01 live Jay Rockwell Entertainment 2024 · Next.js · TypeScript · Tailwind One of my best builds from my last job — a synthwave-styled site for a Philadelphia event production crew running lights, sound, and atmosphere since 1997. View case study →" [ref=e24] [cursor=pointer]:
+              - /url: /project/jay-rockwell
+              - img "Jay Rockwell Entertainment screenshot" [ref=e25]
+              - generic [ref=e26]: "01"
+              - generic [ref=e28]: live
+              - generic [ref=e31]:
+                - generic [ref=e32]:
+                  - heading "Jay Rockwell Entertainment" [level=3] [ref=e33]
+                  - paragraph [ref=e34]: 2024 · Next.js · TypeScript · Tailwind
+                - generic [ref=e35]:
+                  - paragraph [ref=e36]: One of my best builds from my last job — a synthwave-styled site for a Philadelphia event production crew running lights, sound, and atmosphere since 1997.
+                  - generic [ref=e37]:
+                    - text: View case study
+                    - generic [ref=e38]: →
+            - link "BeautyFeel screenshot 02 live BeautyFeel 2024 · Next.js · TypeScript · Prisma A salon was tracking appointments in a notebook. View case study →" [ref=e39] [cursor=pointer]:
+              - /url: /project/beautyfeel-system
+              - img "BeautyFeel screenshot" [ref=e40]
+              - generic [ref=e41]: "02"
+              - generic [ref=e43]: live
+              - generic [ref=e46]:
+                - generic [ref=e47]:
+                  - heading "BeautyFeel" [level=3] [ref=e48]
+                  - paragraph [ref=e49]: 2024 · Next.js · TypeScript · Prisma
+                - generic [ref=e50]:
+                  - paragraph [ref=e51]: A salon was tracking appointments in a notebook.
+                  - generic [ref=e52]:
+                    - text: View case study
+                    - generic [ref=e53]: →
+            - link "ClarityHire screenshot 03 live ClarityHire 2024 · Next.js · TypeScript · Prisma A recruitment platform that decides who gets seen — built to be slower, on purpose. View case study →" [ref=e54] [cursor=pointer]:
+              - /url: /project/clarity-hire
+              - img "ClarityHire screenshot" [ref=e55]
+              - generic [ref=e56]: "03"
+              - generic [ref=e58]: live
+              - generic [ref=e61]:
+                - generic [ref=e62]:
+                  - heading "ClarityHire" [level=3] [ref=e63]
+                  - paragraph [ref=e64]: 2024 · Next.js · TypeScript · Prisma
+                - generic [ref=e65]:
+                  - paragraph [ref=e66]: A recruitment platform that decides who gets seen — built to be slower, on purpose.
+                  - generic [ref=e67]:
+                    - text: View case study
+                    - generic [ref=e68]: →
+            - link "AK Anleggstjenester AS screenshot 04 live AK Anleggstjenester AS 2024 · Next.js · TypeScript · Tailwind Another one from my past job — a Norwegian construction-services and equipment rental brand. View case study →" [ref=e69] [cursor=pointer]:
+              - /url: /project/ak-anleggstjenester
+              - img "AK Anleggstjenester AS screenshot" [ref=e70]
+              - generic [ref=e71]: "04"
+              - generic [ref=e73]: live
+              - generic [ref=e76]:
+                - generic [ref=e77]:
+                  - heading "AK Anleggstjenester AS" [level=3] [ref=e78]
+                  - paragraph [ref=e79]: 2024 · Next.js · TypeScript · Tailwind
+                - generic [ref=e80]:
+                  - paragraph [ref=e81]: Another one from my past job — a Norwegian construction-services and equipment rental brand.
+                  - generic [ref=e82]:
+                    - text: View case study
+                    - generic [ref=e83]: →
+            - link "Mesterlanda AS screenshot 05 live Mesterlanda AS 2024 · Next.js · TypeScript · Tailwind A Norwegian carpentry firm. View case study →" [ref=e84] [cursor=pointer]:
+              - /url: /project/mesterlanda
+              - img "Mesterlanda AS screenshot" [ref=e85]
+              - generic [ref=e86]: "05"
+              - generic [ref=e88]: live
+              - generic [ref=e91]:
+                - generic [ref=e92]:
+                  - heading "Mesterlanda AS" [level=3] [ref=e93]
+                  - paragraph [ref=e94]: 2024 · Next.js · TypeScript · Tailwind
+                - generic [ref=e95]:
+                  - paragraph [ref=e96]: A Norwegian carpentry firm.
+                  - generic [ref=e97]:
+                    - text: View case study
+                    - generic [ref=e98]: →
+            - link "Tømrer Fjellheim screenshot 06 live Tømrer Fjellheim 2024 · Next.js · TypeScript · Tailwind A Norwegian carpenter in Mjøndalen. View case study →" [ref=e99] [cursor=pointer]:
+              - /url: /project/tomrer-fjellheim
+              - img "Tømrer Fjellheim screenshot" [ref=e100]
+              - generic [ref=e101]: "06"
+              - generic [ref=e103]: live
+              - generic [ref=e106]:
+                - generic [ref=e107]:
+                  - heading "Tømrer Fjellheim" [level=3] [ref=e108]
+                  - paragraph [ref=e109]: 2024 · Next.js · TypeScript · Tailwind
+                - generic [ref=e110]:
+                  - paragraph [ref=e111]: A Norwegian carpenter in Mjøndalen.
+                  - generic [ref=e112]:
+                    - text: View case study
+                    - generic [ref=e113]: →
+            - link "Best Partner screenshot 07 live Best Partner 2024 · Next.js · TypeScript · Tailwind A Norwegian apparatus and equipment company since 1991. View case study →" [ref=e114] [cursor=pointer]:
+              - /url: /project/best-partner
+              - img "Best Partner screenshot" [ref=e115]
+              - generic [ref=e116]: "07"
+              - generic [ref=e118]: live
+              - generic [ref=e121]:
+                - generic [ref=e122]:
+                  - heading "Best Partner" [level=3] [ref=e123]
+                  - paragraph [ref=e124]: 2024 · Next.js · TypeScript · Tailwind
+                - generic [ref=e125]:
+                  - paragraph [ref=e126]: A Norwegian apparatus and equipment company since 1991.
+                  - generic [ref=e127]:
+                    - text: View case study
+                    - generic [ref=e128]: →
+            - link "Alessence screenshot 08 live Alessence 2025 · Turborepo · NestJS · Next.js An AI study platform for the students who can't afford to fail the bar. View case study →" [ref=e129] [cursor=pointer]:
+              - /url: /project/alessence
+              - img "Alessence screenshot" [ref=e130]
+              - generic [ref=e131]: "08"
+              - generic [ref=e133]: live
+              - generic [ref=e136]:
+                - generic [ref=e137]:
+                  - heading "Alessence" [level=3] [ref=e138]
+                  - paragraph [ref=e139]: 2025 · Turborepo · NestJS · Next.js
+                - generic [ref=e140]:
+                  - paragraph [ref=e141]: An AI study platform for the students who can't afford to fail the bar.
+                  - generic [ref=e142]:
+                    - text: View case study
+                    - generic [ref=e143]: →
+            - link "TalentNest screenshot 09 live TalentNest 2024 · Next.js · TypeScript · Prisma A scout's notebook, made for the people they're scouting. View case study →" [ref=e144] [cursor=pointer]:
+              - /url: /project/talent-nest
+              - img "TalentNest screenshot" [ref=e145]
+              - generic [ref=e146]: "09"
+              - generic [ref=e148]: live
+              - generic [ref=e151]:
+                - generic [ref=e152]:
+                  - heading "TalentNest" [level=3] [ref=e153]
+                  - paragraph [ref=e154]: 2024 · Next.js · TypeScript · Prisma
+                - generic [ref=e155]:
+                  - paragraph [ref=e156]: A scout's notebook, made for the people they're scouting.
+                  - generic [ref=e157]:
+                    - text: View case study
+                    - generic [ref=e158]: →
+            - link "HTU Evaluation screenshot 10 shipped HTU Evaluation 2023 · JavaScript · Node.js · Express My capstone. View case study →" [ref=e159] [cursor=pointer]:
+              - /url: /project/htu-evaluation-system
+              - img "HTU Evaluation screenshot" [ref=e160]
+              - generic [ref=e161]: "10"
+              - generic [ref=e163]: shipped
+              - generic [ref=e166]:
+                - generic [ref=e167]:
+                  - heading "HTU Evaluation" [level=3] [ref=e168]
+                  - paragraph [ref=e169]: 2023 · JavaScript · Node.js · Express
+                - generic [ref=e170]:
+                  - paragraph [ref=e171]: My capstone.
+                  - generic [ref=e172]:
+                    - text: View case study
+                    - generic [ref=e173]: →
+      - generic [ref=e175]:
+        - generic [ref=e176]:
+          - generic [ref=e177]:
+            - text: Built in Palawan
+            - generic [ref=e178]: ●
+          - generic [ref=e179]:
+            - text: Shipped to production
+            - generic [ref=e180]: ●
+          - generic [ref=e181]:
+            - text: Still here
+            - generic [ref=e182]: ●
+          - generic [ref=e183]:
+            - text: Built in Palawan
+            - generic [ref=e184]: ●
+          - generic [ref=e185]:
+            - text: Shipped to production
+            - generic [ref=e186]: ●
+          - generic [ref=e187]:
+            - text: Still here
+            - generic [ref=e188]: ●
+          - generic [ref=e189]:
+            - text: Built in Palawan
+            - generic [ref=e190]: ●
+          - generic [ref=e191]:
+            - text: Shipped to production
+            - generic [ref=e192]: ●
+          - generic [ref=e193]:
+            - text: Still here
+            - generic [ref=e194]: ●
+          - generic [ref=e195]:
+            - text: Built in Palawan
+            - generic [ref=e196]: ●
+          - generic [ref=e197]:
+            - text: Shipped to production
+            - generic [ref=e198]: ●
+          - generic [ref=e199]:
+            - text: Still here
+            - generic [ref=e200]: ●
+        - generic [ref=e201]:
+          - generic [ref=e202]:
+            - text: Built in Palawan
+            - generic [ref=e203]: ●
+          - generic [ref=e204]:
+            - text: Shipped to production
+            - generic [ref=e205]: ●
+          - generic [ref=e206]:
+            - text: Still here
+            - generic [ref=e207]: ●
+          - generic [ref=e208]:
+            - text: Built in Palawan
+            - generic [ref=e209]: ●
+          - generic [ref=e210]:
+            - text: Shipped to production
+            - generic [ref=e211]: ●
+          - generic [ref=e212]:
+            - text: Still here
+            - generic [ref=e213]: ●
+          - generic [ref=e214]:
+            - text: Built in Palawan
+            - generic [ref=e215]: ●
+          - generic [ref=e216]:
+            - text: Shipped to production
+            - generic [ref=e217]: ●
+          - generic [ref=e218]:
+            - text: Still here
+            - generic [ref=e219]: ●
+          - generic [ref=e220]:
+            - text: Built in Palawan
+            - generic [ref=e221]: ●
+          - generic [ref=e222]:
+            - text: Shipped to production
+            - generic [ref=e223]: ●
+          - generic [ref=e224]:
+            - text: Still here
+            - generic [ref=e225]: ●
+      - generic [ref=e226]:
+        - generic:
+          - generic: About
+          - generic: ── stack · timeline · bio
+        - generic [ref=e227]:
+          - generic [ref=e228]:
+            - heading "About" [level=2] [ref=e229]
+            - generic [ref=e230]: "[ daniel ]"
+          - generic [ref=e231]:
+            - generic [ref=e233]:
+              - img "Daniel Canoy" [ref=e234]
+              - generic [ref=e236]:
+                - generic [ref=e237]: ── this is me
+                - generic [ref=e238]: Daniel, 22
+            - generic [ref=e239]:
+              - generic [ref=e240]:
+                - generic [ref=e241]: ── short version
+                - paragraph [ref=e242]: I'm a full-stack developer from Puerto Princesa, Palawan. Three years building, ten products shipped (five of them while working for a previous company — across US event production, Norwegian construction, carpentry, and apparatus brands), one Bachelor of Information Technology from Holy Trinity University. I write code the way water finds the lowest path — patient, structural, and ready to break before it ships.
+              - generic [ref=e243]:
+                - generic [ref=e244]: ── the stack
+                - generic [ref=e245]:
+                  - generic [ref=e246]:
+                    - generic [ref=e247]: Frontend
+                    - list [ref=e248]:
+                      - listitem [ref=e249]: Next.js
+                      - listitem [ref=e250]: React
+                      - listitem [ref=e251]: TypeScript
+                      - listitem [ref=e252]: Tailwind
+                      - listitem [ref=e253]: Redux
+                  - generic [ref=e254]:
+                    - generic [ref=e255]: Backend
+                    - list [ref=e256]:
+                      - listitem [ref=e257]: NestJS
+                      - listitem [ref=e258]: Node.js
+                      - listitem [ref=e259]: Express
+                      - listitem [ref=e260]: Prisma
+                  - generic [ref=e261]:
+                    - generic [ref=e262]: Database
+                    - list [ref=e263]:
+                      - listitem [ref=e264]: PostgreSQL
+                      - listitem [ref=e265]: MongoDB
+                  - generic [ref=e266]:
+                    - generic [ref=e267]: Tooling
+                    - list [ref=e268]:
+                      - listitem [ref=e269]: Turborepo
+                      - listitem [ref=e270]: Git
+                      - listitem [ref=e271]: Vercel
+                      - listitem [ref=e272]: Google Gemini
+              - generic [ref=e273]:
+                - generic [ref=e274]: ── timeline
+                - list [ref=e275]:
+                  - listitem [ref=e276]:
+                    - generic [ref=e277]: "2025"
+                    - generic [ref=e278]: Building Alessence — AI study platform
+                  - listitem [ref=e279]:
+                    - generic [ref=e280]: "2025"
+                    - generic [ref=e281]: BIT — Holy Trinity University
+                  - listitem [ref=e282]:
+                    - generic [ref=e283]: "2024"
+                    - generic [ref=e284]: BeautyFeel · ClarityHire · TalentNest shipped
+                  - listitem [ref=e285]:
+                    - generic [ref=e286]: "2023"
+                    - generic [ref=e287]: Capstone shipped to HTU
+      - generic [ref=e288]:
+        - generic:
+          - generic: Reach
+          - generic: ── available · open
+        - generic [ref=e289]:
+          - generic [ref=e290]:
+            - heading "Get in touch" [level=2] [ref=e291]
+            - generic [ref=e292]: "[ available ]"
+          - link "canoydaniel06@ gmail.com ↗" [ref=e293] [cursor=pointer]:
+            - /url: mailto:canoydaniel06@gmail.com
+            - generic [ref=e294]:
+              - generic [ref=e295]:
+                - text: canoydaniel06@
+                - generic [ref=e296]: gmail.com
+              - generic [ref=e297]: ↗
+          - generic [ref=e298]:
+            - link "── email Inbox →" [ref=e299] [cursor=pointer]:
+              - /url: mailto:canoydaniel06@gmail.com
+              - generic [ref=e300]: ── email
+              - generic [ref=e301]: Inbox →
+            - link "── github @marshymcfloat ↗" [ref=e302] [cursor=pointer]:
+              - /url: https://github.com/marshymcfloat
+              - generic [ref=e303]: ── github
+              - generic [ref=e304]: "@marshymcfloat ↗"
+            - generic [ref=e305]:
+              - generic [ref=e306]: ── based in
+              - generic [ref=e307]: Palawan, PH
+            - generic [ref=e308]:
+              - generic [ref=e309]: ── status
+              - generic [ref=e310]: Open
+          - generic [ref=e314]:
+            - generic [ref=e315]: © 2026 Daniel Canoy
+            - generic [ref=e316]: Built with Next.js + GSAP · Palawan
+  - alert [ref=e317]
+  - button "Open Next.js Dev Tools" [ref=e323] [cursor=pointer]:
+    - img [ref=e324]

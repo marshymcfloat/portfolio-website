@@ -1,0 +1,527 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e6]:
+      - generic [ref=e7]:
+        - link "MEGHA©" [ref=e10] [cursor=pointer]:
+          - /url: ./
+          - paragraph [ref=e12]: MEGHA©
+        - list [ref=e13]:
+          - listitem [ref=e14]:
+            - link "Home" [ref=e15] [cursor=pointer]:
+              - /url: ./
+              - paragraph [ref=e18]: Home
+          - listitem [ref=e19]:
+            - link "Works" [ref=e20] [cursor=pointer]:
+              - /url: ./works
+              - paragraph [ref=e23]: Works
+          - listitem [ref=e24]:
+            - link "Experiments" [ref=e25] [cursor=pointer]:
+              - /url: ./experiments
+              - paragraph [ref=e28]: Experiments
+          - listitem [ref=e29]:
+            - link "Contact" [ref=e30] [cursor=pointer]:
+              - /url: ./contact
+              - paragraph [ref=e33]: Contact
+        - generic [ref=e34]:
+          - link "Instagram" [ref=e36] [cursor=pointer]:
+            - /url: https://www.instagram.com/tinge_of_blue/
+            - paragraph [ref=e39]: Instagram
+          - link "LinkedIn" [ref=e41] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/megha-sharma-bb2826301/
+            - paragraph [ref=e44]: LinkedIn
+    - main [ref=e46]:
+      - generic [ref=e47]:
+        - generic:
+          - generic:
+            - heading "MEGHA SHARMA" [level=1]:
+              - generic: MEGHA
+              - generic: SHARMA
+          - generic:
+            - paragraph: MULTIDISCIPLINARY experimental DESIGNER
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - heading "Selected Works" [level=2] [ref=e55]:
+            - generic [ref=e56]: Selected
+            - generic [ref=e57]: Works
+          - link "See all works" [ref=e59] [cursor=pointer]:
+            - /url: ./works
+            - paragraph [ref=e61]: See all works
+        - generic [ref=e62]:
+          - link "SHOT" [ref=e66] [cursor=pointer]:
+            - /url: ./works/shot
+            - generic:
+              - figure
+            - generic [ref=e67]:
+              - heading "SHOT" [level=3] [ref=e69]
+              - generic:
+                - paragraph
+          - link "NEBULA" [ref=e73] [cursor=pointer]:
+            - /url: ./works/nebula
+            - generic:
+              - figure
+            - generic [ref=e74]:
+              - heading "NEBULA" [level=3] [ref=e76]
+              - generic:
+                - paragraph
+          - link "goenchi" [ref=e80] [cursor=pointer]:
+            - /url: ./works/goenchi
+            - generic:
+              - figure
+            - generic [ref=e81]:
+              - heading "goenchi" [level=3] [ref=e83]
+              - generic:
+                - paragraph
+          - link "Fresh market" [ref=e87] [cursor=pointer]:
+            - /url: ./works/fresh-market
+            - generic:
+              - figure
+            - generic [ref=e88]:
+              - heading "Fresh market" [level=3] [ref=e90]
+              - generic:
+                - paragraph
+          - link "SHOT (Alt)" [ref=e94] [cursor=pointer]:
+            - /url: ./works/shot-(alternate)
+            - generic:
+              - figure
+            - generic [ref=e95]:
+              - heading "SHOT (Alt)" [level=3] [ref=e97]
+              - generic:
+                - paragraph
+        - generic [ref=e100]:
+          - heading "EXPERIMENTS" [level=2] [ref=e102]:
+            - generic [ref=e103]: EXPERIMENTS
+          - link "view all" [ref=e106] [cursor=pointer]:
+            - /url: ./experiments
+            - paragraph [ref=e109]: view all
+          - img [ref=e116]
+      - generic [ref=e121]:
+        - heading "ABOUT ME" [level=2] [ref=e123]:
+          - generic [ref=e124]: ABOUT
+          - generic [ref=e125]: ME
+        - paragraph [ref=e129]:
+          - generic [ref=e130]:
+            - generic [ref=e131]: O
+            - generic [ref=e132]: r
+            - generic [ref=e133]: i
+            - generic [ref=e134]: g
+            - generic [ref=e135]: i
+            - generic [ref=e136]: "n"
+            - generic [ref=e137]: a
+            - generic [ref=e138]: l
+            - generic [ref=e139]: l
+            - generic [ref=e140]: "y"
+          - generic [ref=e141]:
+            - generic [ref=e142]: f
+            - generic [ref=e143]: r
+            - generic [ref=e144]: o
+            - generic [ref=e145]: m
+          - generic [ref=e146]:
+            - generic [ref=e147]: G
+            - generic [ref=e148]: u
+            - generic [ref=e149]: r
+            - generic [ref=e150]: u
+            - generic [ref=e151]: g
+            - generic [ref=e152]: r
+            - generic [ref=e153]: a
+            - generic [ref=e154]: m
+            - generic [ref=e155]: ","
+          - generic [ref=e156]:
+            - generic [ref=e157]: I
+            - generic [ref=e158]: ’
+            - generic [ref=e159]: v
+            - generic [ref=e160]: e
+          - generic [ref=e161]:
+            - generic [ref=e162]: d
+            - generic [ref=e163]: o
+            - generic [ref=e164]: "n"
+            - generic [ref=e165]: e
+          - generic [ref=e166]:
+            - generic [ref=e167]: m
+            - generic [ref=e168]: "y"
+          - generic [ref=e169]:
+            - generic [ref=e170]: u
+            - generic [ref=e171]: "n"
+            - generic [ref=e172]: d
+            - generic [ref=e173]: e
+            - generic [ref=e174]: r
+          - generic [ref=e175]:
+            - generic [ref=e176]: g
+            - generic [ref=e177]: r
+            - generic [ref=e178]: a
+            - generic [ref=e179]: d
+            - generic [ref=e180]: u
+            - generic [ref=e181]: a
+            - generic [ref=e182]: t
+            - generic [ref=e183]: i
+            - generic [ref=e184]: o
+            - generic [ref=e185]: "n"
+          - generic [ref=e186]:
+            - generic [ref=e187]: f
+            - generic [ref=e188]: r
+            - generic [ref=e189]: o
+            - generic [ref=e190]: m
+          - generic [ref=e191]:
+            - generic [ref=e192]: J
+            - generic [ref=e193]: J
+          - generic [ref=e194]:
+            - generic [ref=e195]: s
+            - generic [ref=e196]: c
+            - generic [ref=e197]: h
+            - generic [ref=e198]: o
+            - generic [ref=e199]: o
+            - generic [ref=e200]: l
+          - generic [ref=e201]:
+            - generic [ref=e202]: o
+            - generic [ref=e203]: f
+          - generic [ref=e204]:
+            - generic [ref=e205]: a
+            - generic [ref=e206]: r
+            - generic [ref=e207]: t
+            - generic [ref=e208]: s
+            - generic [ref=e209]: ","
+          - generic [ref=e210]:
+            - generic [ref=e211]: M
+            - generic [ref=e212]: u
+            - generic [ref=e213]: m
+            - generic [ref=e214]: b
+            - generic [ref=e215]: a
+            - generic [ref=e216]: i
+          - generic [ref=e217]:
+            - generic [ref=e218]: i
+            - generic [ref=e219]: "n"
+          - generic [ref=e220]:
+            - generic [ref=e221]: A
+            - generic [ref=e222]: p
+            - generic [ref=e223]: p
+            - generic [ref=e224]: l
+            - generic [ref=e225]: i
+            - generic [ref=e226]: e
+            - generic [ref=e227]: d
+          - generic [ref=e228]:
+            - generic [ref=e229]: a
+            - generic [ref=e230]: r
+            - generic [ref=e231]: t
+            - generic [ref=e232]: s
+            - generic [ref=e233]: .
+          - generic [ref=e234]:
+            - generic [ref=e235]: E
+            - generic [ref=e236]: x
+            - generic [ref=e237]: p
+            - generic [ref=e238]: e
+            - generic [ref=e239]: r
+            - generic [ref=e240]: i
+            - generic [ref=e241]: m
+            - generic [ref=e242]: e
+            - generic [ref=e243]: "n"
+            - generic [ref=e244]: t
+            - generic [ref=e245]: a
+            - generic [ref=e246]: l
+          - generic [ref=e247]:
+            - generic [ref=e248]: b
+            - generic [ref=e249]: "y"
+          - generic [ref=e250]:
+            - generic [ref=e251]: "n"
+            - generic [ref=e252]: a
+            - generic [ref=e253]: t
+            - generic [ref=e254]: u
+            - generic [ref=e255]: r
+            - generic [ref=e256]: e
+            - generic [ref=e257]: ","
+          - generic [ref=e259]: I
+          - generic [ref=e260]:
+            - generic [ref=e261]: d
+            - generic [ref=e262]: e
+            - generic [ref=e263]: s
+            - generic [ref=e264]: i
+            - generic [ref=e265]: g
+            - generic [ref=e266]: "n"
+          - generic [ref=e267]:
+            - generic [ref=e268]: w
+            - generic [ref=e269]: i
+            - generic [ref=e270]: t
+            - generic [ref=e271]: h
+          - generic [ref=e273]: a
+          - generic [ref=e274]:
+            - generic [ref=e275]: s
+            - generic [ref=e276]: t
+            - generic [ref=e277]: r
+            - generic [ref=e278]: o
+            - generic [ref=e279]: "n"
+            - generic [ref=e280]: g
+          - generic [ref=e281]:
+            - generic [ref=e282]: f
+            - generic [ref=e283]: o
+            - generic [ref=e284]: c
+            - generic [ref=e285]: u
+            - generic [ref=e286]: s
+          - generic [ref=e287]:
+            - generic [ref=e288]: o
+            - generic [ref=e289]: "n"
+          - generic [ref=e290]:
+            - generic [ref=e291]: c
+            - generic [ref=e292]: o
+            - generic [ref=e293]: l
+            - generic [ref=e294]: o
+            - generic [ref=e295]: u
+            - generic [ref=e296]: r
+            - generic [ref=e297]: ","
+          - generic [ref=e298]:
+            - generic [ref=e299]: c
+            - generic [ref=e300]: r
+            - generic [ref=e301]: e
+            - generic [ref=e302]: a
+            - generic [ref=e303]: t
+            - generic [ref=e304]: i
+            - generic [ref=e305]: v
+            - generic [ref=e306]: i
+            - generic [ref=e307]: t
+            - generic [ref=e308]: "y"
+            - generic [ref=e309]: ","
+          - generic [ref=e310]:
+            - generic [ref=e311]: m
+            - generic [ref=e312]: u
+            - generic [ref=e313]: l
+            - generic [ref=e314]: t
+            - generic [ref=e315]: i
+            - generic [ref=e316]: m
+            - generic [ref=e317]: e
+            - generic [ref=e318]: d
+            - generic [ref=e319]: i
+            - generic [ref=e320]: a
+          - generic [ref=e321]:
+            - generic [ref=e322]: a
+            - generic [ref=e323]: "n"
+            - generic [ref=e324]: d
+          - generic [ref=e325]:
+            - generic [ref=e326]: s
+            - generic [ref=e327]: t
+            - generic [ref=e328]: o
+            - generic [ref=e329]: r
+            - generic [ref=e330]: "y"
+            - generic [ref=e331]: t
+            - generic [ref=e332]: e
+            - generic [ref=e333]: l
+            - generic [ref=e334]: l
+            - generic [ref=e335]: i
+            - generic [ref=e336]: "n"
+            - generic [ref=e337]: g
+            - generic [ref=e338]: .
+          - generic [ref=e339]:
+            - generic [ref=e340]: M
+            - generic [ref=e341]: "y"
+          - generic [ref=e342]:
+            - generic [ref=e343]: w
+            - generic [ref=e344]: o
+            - generic [ref=e345]: r
+            - generic [ref=e346]: k
+          - generic [ref=e347]:
+            - generic [ref=e348]: i
+            - generic [ref=e349]: s
+          - generic [ref=e350]:
+            - generic [ref=e351]: i
+            - generic [ref=e352]: "n"
+            - generic [ref=e353]: s
+            - generic [ref=e354]: p
+            - generic [ref=e355]: i
+            - generic [ref=e356]: r
+            - generic [ref=e357]: e
+            - generic [ref=e358]: d
+          - generic [ref=e359]:
+            - generic [ref=e360]: b
+            - generic [ref=e361]: "y"
+          - generic [ref=e362]:
+            - generic [ref=e363]: m
+            - generic [ref=e364]: u
+            - generic [ref=e365]: s
+            - generic [ref=e366]: i
+            - generic [ref=e367]: c
+            - generic [ref=e368]: ","
+          - generic [ref=e369]:
+            - generic [ref=e370]: p
+            - generic [ref=e371]: e
+            - generic [ref=e372]: r
+            - generic [ref=e373]: s
+            - generic [ref=e374]: o
+            - generic [ref=e375]: "n"
+            - generic [ref=e376]: a
+            - generic [ref=e377]: l
+          - generic [ref=e378]:
+            - generic [ref=e379]: e
+            - generic [ref=e380]: x
+            - generic [ref=e381]: p
+            - generic [ref=e382]: e
+            - generic [ref=e383]: r
+            - generic [ref=e384]: i
+            - generic [ref=e385]: e
+            - generic [ref=e386]: "n"
+            - generic [ref=e387]: c
+            - generic [ref=e388]: e
+            - generic [ref=e389]: s
+            - generic [ref=e390]: ","
+          - generic [ref=e391]:
+            - generic [ref=e392]: d
+            - generic [ref=e393]: a
+            - generic [ref=e394]: i
+            - generic [ref=e395]: l
+            - generic [ref=e396]: "y"
+          - generic [ref=e397]:
+            - generic [ref=e398]: o
+            - generic [ref=e399]: b
+            - generic [ref=e400]: s
+            - generic [ref=e401]: e
+            - generic [ref=e402]: r
+            - generic [ref=e403]: v
+            - generic [ref=e404]: a
+            - generic [ref=e405]: t
+            - generic [ref=e406]: i
+            - generic [ref=e407]: o
+            - generic [ref=e408]: "n"
+            - generic [ref=e409]: s
+            - generic [ref=e410]: ","
+          - generic [ref=e411]:
+            - generic [ref=e412]: a
+            - generic [ref=e413]: "n"
+            - generic [ref=e414]: d
+          - generic [ref=e415]:
+            - generic [ref=e416]: m
+            - generic [ref=e417]: o
+            - generic [ref=e418]: m
+            - generic [ref=e419]: e
+            - generic [ref=e420]: "n"
+            - generic [ref=e421]: t
+            - generic [ref=e422]: s
+          - generic [ref=e423]:
+            - generic [ref=e424]: o
+            - generic [ref=e425]: f
+          - generic [ref=e426]:
+            - generic [ref=e427]: q
+            - generic [ref=e428]: u
+            - generic [ref=e429]: i
+            - generic [ref=e430]: e
+            - generic [ref=e431]: t
+          - generic [ref=e432]:
+            - generic [ref=e433]: t
+            - generic [ref=e434]: h
+            - generic [ref=e435]: o
+            - generic [ref=e436]: u
+            - generic [ref=e437]: g
+            - generic [ref=e438]: h
+            - generic [ref=e439]: t
+          - generic [ref=e440]:
+            - generic [ref=e441]: (
+            - generic [ref=e442]: o
+            - generic [ref=e443]: f
+            - generic [ref=e444]: t
+            - generic [ref=e445]: e
+            - generic [ref=e446]: "n"
+          - generic [ref=e447]:
+            - generic [ref=e448]: i
+            - generic [ref=e449]: "n"
+          - generic [ref=e450]:
+            - generic [ref=e451]: t
+            - generic [ref=e452]: h
+            - generic [ref=e453]: e
+          - generic [ref=e454]:
+            - generic [ref=e455]: s
+            - generic [ref=e456]: h
+            - generic [ref=e457]: o
+            - generic [ref=e458]: w
+            - generic [ref=e459]: e
+            - generic [ref=e460]: r
+            - generic [ref=e461]: )
+            - generic [ref=e462]: .
+          - generic [ref=e464]: I
+          - generic [ref=e465]:
+            - generic [ref=e466]: a
+            - generic [ref=e467]: l
+            - generic [ref=e468]: s
+            - generic [ref=e469]: o
+          - generic [ref=e470]:
+            - generic [ref=e471]: f
+            - generic [ref=e472]: i
+            - generic [ref=e473]: "n"
+            - generic [ref=e474]: d
+          - generic [ref=e475]:
+            - generic [ref=e476]: j
+            - generic [ref=e477]: o
+            - generic [ref=e478]: "y"
+          - generic [ref=e479]:
+            - generic [ref=e480]: i
+            - generic [ref=e481]: "n"
+          - generic [ref=e482]:
+            - generic [ref=e483]: c
+            - generic [ref=e484]: o
+            - generic [ref=e485]: o
+            - generic [ref=e486]: k
+            - generic [ref=e487]: i
+            - generic [ref=e488]: "n"
+            - generic [ref=e489]: g
+          - generic [ref=e490]:
+            - generic [ref=e491]: s
+            - generic [ref=e492]: o
+            - generic [ref=e493]: l
+            - generic [ref=e494]: o
+            - generic [ref=e495]: ","
+          - generic [ref=e496]:
+            - generic [ref=e497]: g
+            - generic [ref=e498]: o
+            - generic [ref=e499]: i
+            - generic [ref=e500]: "n"
+            - generic [ref=e501]: g
+          - generic [ref=e502]:
+            - generic [ref=e503]: o
+            - generic [ref=e504]: "n"
+          - generic [ref=e505]:
+            - generic [ref=e506]: r
+            - generic [ref=e507]: u
+            - generic [ref=e508]: "n"
+            - generic [ref=e509]: s
+            - generic [ref=e510]: ","
+          - generic [ref=e511]:
+            - generic [ref=e512]: a
+            - generic [ref=e513]: "n"
+            - generic [ref=e514]: d
+          - generic [ref=e515]:
+            - generic [ref=e516]: d
+            - generic [ref=e517]: a
+            - generic [ref=e518]: b
+            - generic [ref=e519]: b
+            - generic [ref=e520]: l
+            - generic [ref=e521]: i
+            - generic [ref=e522]: "n"
+            - generic [ref=e523]: g
+          - generic [ref=e524]:
+            - generic [ref=e525]: i
+            - generic [ref=e526]: "n"
+          - generic [ref=e527]:
+            - generic [ref=e528]: f
+            - generic [ref=e529]: a
+            - generic [ref=e530]: s
+            - generic [ref=e531]: h
+            - generic [ref=e532]: i
+            - generic [ref=e533]: o
+            - generic [ref=e534]: "n"
+            - generic [ref=e535]: .
+    - contentinfo [ref=e542]:
+      - heading "Get in touch" [level=2] [ref=e545]:
+        - link "Get in touch" [ref=e546] [cursor=pointer]:
+          - /url: ./contact
+          - generic [ref=e547]: Get
+          - generic [ref=e548]: in
+          - generic [ref=e549]: touch
+      - generic [ref=e550]:
+        - generic [ref=e551]:
+          - link "Email" [ref=e553] [cursor=pointer]:
+            - /url: https://meg.shram3269@gmail.com
+            - paragraph [ref=e556]: Email
+          - link "Instagram" [ref=e558] [cursor=pointer]:
+            - /url: https://www.instagram.com/tinge_of_blue/
+            - paragraph [ref=e561]: Instagram
+          - link "LinkedIn" [ref=e563] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/megha-sharma-bb2826301/
+            - paragraph [ref=e566]: LinkedIn
+        - paragraph [ref=e569]: ©2026
+  - generic:
+    - link "Create a free website with Framer, the website builder loved by startups, designers and agencies.":
+      - /url: https://www.framer.com
+      - paragraph [ref=e570] [cursor=pointer]: Create a free website with Framer, the website builder loved by startups, designers and agencies.

@@ -1,49 +1,65 @@
 import "./globals.css";
-import ReduxProvider from "@/components/ReduxProvider";
-import NavBar from "@/components/NavBar";
-import { Krona_One } from "next/font/google";
-import BackgroundOrbs from "@/components/BackgroundOrbs";
-import { icons } from "lucide-react";
+import { Anton, Inter_Tight, JetBrains_Mono } from "next/font/google";
+import SmoothScroll from "@/components/SmoothScroll";
+import Grain from "@/components/Grain";
+import Spotlight from "@/components/Spotlight";
+import TopNav from "@/components/TopNav";
+import Textures from "@/components/Textures";
 
-const kronaOne = Krona_One({
+const anton = Anton({
   subsets: ["latin"],
-  weight: ["400"],
-  variable: "--font-krona-one",
+  weight: "400",
+  variable: "--font-anton",
+  display: "swap",
+});
+
+const interTight = Inter_Tight({
+  subsets: ["latin"],
+  variable: "--font-inter-tight",
+  display: "swap",
+});
+
+const jetbrains = JetBrains_Mono({
+  subsets: ["latin"],
+  variable: "--font-jetbrains",
+  display: "swap",
 });
 
 export const metadata = {
-  title: "Dani.",
-  description: "know more about Daniel Canoy",
-  icons: {
-    icon: "/favicon.ico",
-  },
+  title: "Daniel Canoy — Full-stack developer",
+  description:
+    "Full-stack developer in Puerto Princesa, PH. Next.js, NestJS, Postgres. Shipping production systems since 2023.",
+  // Favicon auto-discovered from app/icon.png by Next.js App Router conventions
 };
 
 export const viewport = {
   width: "device-width",
   initialScale: 1,
-  maximumScale: 1,
-  userScalable: false,
 };
 
 export default function RootLayout({
   children,
-  modal,
-}: Readonly<{
-  children: React.ReactNode;
-  modal: React.ReactNode;
-}>) {
+}: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={kronaOne.variable}>
-      <body className={`min-h-screen max-w-screen bg-BGDark text-neutral-300`}>
-        <ReduxProvider>
-          <NavBar />
-          <div className="fixed inset-0 -z-10 overflow-hidden">
-            <BackgroundOrbs />
-          </div>
+    <html
+      lang="en"
+      className={`${anton.variable} ${interTight.variable} ${jetbrains.variable}`}
+      style={
+        {
+          "--font-display": "var(--font-anton)",
+          "--font-body": "var(--font-inter-tight)",
+          "--font-mono": "var(--font-jetbrains)",
+        } as React.CSSProperties
+      }
+    >
+      <body className="bg-bg text-ink antialiased overflow-x-hidden">
+        <SmoothScroll>
+          <Spotlight />
+          <Grain />
+          <Textures />
+          <TopNav />
           {children}
-          {modal}
-        </ReduxProvider>
+        </SmoothScroll>
       </body>
     </html>
   );

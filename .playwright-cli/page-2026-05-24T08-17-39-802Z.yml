@@ -1,0 +1,80 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "DC©" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e5]:
+        - link "Home" [ref=e6] [cursor=pointer]:
+          - /url: /#home
+        - link "Works" [ref=e7] [cursor=pointer]:
+          - /url: /#work
+        - link "About" [ref=e8] [cursor=pointer]:
+          - /url: /#experience
+        - link "Contact" [ref=e9] [cursor=pointer]:
+          - /url: /#contact
+      - generic [ref=e10]:
+        - link "Github" [ref=e11] [cursor=pointer]:
+          - /url: https://github.com/marshymcfloat
+        - link "Email" [ref=e12] [cursor=pointer]:
+          - /url: mailto:canoydaniel06@gmail.com
+  - main [ref=e13]:
+    - generic [ref=e14]:
+      - link "← Back to works" [ref=e15] [cursor=pointer]:
+        - /url: /#work
+      - generic [ref=e16]:
+        - generic [ref=e17]: "01"
+        - generic [ref=e18]: /
+        - generic [ref=e19]: "2024"
+        - generic [ref=e20]: /
+        - generic [ref=e21]: Palawan, PH
+        - generic [ref=e22]: /
+        - generic [ref=e23]: live
+        - generic [ref=e27]: /
+        - generic [ref=e28]: beautyfeel.net
+      - heading "BeautyFeel" [level=1] [ref=e29]
+      - paragraph [ref=e30]: A salon was tracking appointments in a notebook. I gave them a system.
+      - generic [ref=e31]:
+        - link "Live demo ↗" [ref=e32] [cursor=pointer]:
+          - /url: https://beautyfeel.net
+          - text: Live demo
+          - generic [ref=e33]: ↗
+        - link "Source ↗" [ref=e34] [cursor=pointer]:
+          - /url: https://github.com/marshymcfloat/beautyfeel_prisma
+          - text: Source
+          - generic [ref=e35]: ↗
+    - img "BeautyFeel cover" [ref=e38]
+    - generic [ref=e39]:
+      - generic [ref=e40]:
+        - generic [ref=e41]: ── what it is
+        - paragraph [ref=e42]: Live in production at beautyfeel.net. Handles daily bookings, staff payouts, and sales reporting for a real salon that still depends on it tonight.
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - generic [ref=e45]: ── the problem
+          - paragraph [ref=e46]: A growing beauty salon in Palawan was running its entire operation out of a physical notebook — bookings, services, staff schedules, sales. Double-bookings were routine. Sales numbers were guesses.
+        - generic [ref=e47]:
+          - generic [ref=e48]: ── the decision
+          - paragraph [ref=e49]: "I built a single source of truth: a Next.js app with a typed Postgres schema modeled around the way the owner actually thought about her business — clients, services, slots, staff — not the way a generic SaaS imagined her."
+    - generic [ref=e50]:
+      - generic [ref=e51]: ── built with
+      - generic [ref=e52]:
+        - generic [ref=e53]: Next.js
+        - generic [ref=e54]: TypeScript
+        - generic [ref=e55]: Prisma
+        - generic [ref=e56]: PostgreSQL
+        - generic [ref=e57]: Redux
+        - generic [ref=e58]: Tailwind
+    - generic [ref=e59]:
+      - generic [ref=e60]: ── stills · 6
+      - generic [ref=e61]:
+        - img "BeautyFeel still 1" [ref=e63]
+        - img "BeautyFeel still 2" [ref=e65]
+        - img "BeautyFeel still 3" [ref=e67]
+        - img "BeautyFeel still 4" [ref=e69]
+        - img "BeautyFeel still 5" [ref=e71]
+        - img "BeautyFeel still 6" [ref=e73]
+    - link "── next project ClarityHire →" [ref=e75] [cursor=pointer]:
+      - /url: /project/clarity-hire
+      - generic [ref=e76]:
+        - generic [ref=e77]: ── next project
+        - generic [ref=e78]: ClarityHire
+      - generic [ref=e79]: →
