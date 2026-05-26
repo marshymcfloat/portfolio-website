@@ -3,6 +3,7 @@
 import { useLayoutEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Rain from "@/components/Rain";
 
 // Module-scoped flag — survives React remounts (client-side nav)
 // but resets on full page load (hard refresh, fresh navigation).
@@ -14,6 +15,10 @@ export default function Approach() {
   const innerRef = useRef<HTMLDivElement>(null);
   const nameRef = useRef<HTMLHeadingElement>(null);
   const subtitleRef = useRef<HTMLDivElement>(null);
+  // Capture reveal state at first render — locks it for the lifetime of this mount
+  // so the Rain prop doesn't flip mid-animation if the component re-renders.
+  const shouldRevealRef = useRef(!hasPlayedHeroReveal);
+  const shouldReveal = shouldRevealRef.current;
 
   useLayoutEffect(() => {
     if (typeof window === "undefined") return;
@@ -105,9 +110,20 @@ export default function Approach() {
       className="sticky top-0 z-0 h-screen w-full flex items-center justify-center px-4 md:px-8 pt-16 overflow-hidden"
       style={{ perspective: "1200px", perspectiveOrigin: "50% 35%" }}
     >
+      {/* falling rain — behind the text, sets the mood.
+          On first load: rain falls in from above & fades in after the name reveals.
+          On client-side nav back: rain appears instantly. */}
+      <Rain
+        className="absolute inset-0 w-full h-full z-0"
+        density={7000}
+        fadeInDelay={shouldReveal ? 1400 : 0}
+        fadeInDuration={shouldReveal ? 2000 : 0}
+        fallIn={shouldReveal}
+      />
+
       <div
         ref={innerRef}
-        className="text-center w-full max-w-[1800px] mx-auto will-change-transform"
+        className="relative z-[2] text-center w-full max-w-[1800px] mx-auto will-change-transform"
         style={{ transformStyle: "preserve-3d", transformOrigin: "50% 50%" }}
       >
         {/* THE NAME — letters cascade in */}
@@ -152,7 +168,6 @@ export default function Approach() {
           Full-stack Developer &nbsp;·&nbsp; Palawan, PH
         </div>
       </div>
-
     </section>
   );
 }

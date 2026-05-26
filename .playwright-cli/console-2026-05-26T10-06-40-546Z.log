@@ -1,0 +1,53 @@
+[    3846ms] Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ScrollAndFocusHandler segmentPath={[...]}>
+      <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+        <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+          <LoadingBoundary loading={null}>
+            <HTTPAccessFallbackBoundary notFound={[...]} forbidden={undefined} unauthorized={undefined}>
+              <HTTPAccessFallbackErrorBoundary pathname="/" notFound={[...]} forbidden={undefined} ...>
+                <RedirectBoundary>
+                  <RedirectErrorBoundary router={{...}}>
+                    <InnerLayoutRouter url="/" tree={[...]} cacheNode={{lazyData:null, ...}} segmentPath={[...]}>
+                      <Home>
+                        <main>
+                          <Approach>
+                            <section id="home" className="sticky top..." style={{...}}>
+                              <Rain className="absolute i..." density={7000}>
++                               <canvas
++                                 ref={{current:null}}
++                                 aria-hidden="true"
++                                 className="pointer-events-none absolute inset-0 w-full h-full z-0"
++                               >
+-                               <div
+-                                 className="text-center w-full max-w-[1800px] mx-auto will-change-transform"
+-                                 style={{transform-style:"preserve-3d",transform-origin:"50% 50%"}}
+-                               >
+                              ...
+                          ...
+                      ...
+
+    at throwOnHydrationMismatch (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:4433:11)
+    at beginWork (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:10805:17)
+    at runWithFiberInDEV (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:845:30)
+    at performUnitOfWork (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15258:22)
+    at workLoopConcurrentByScheduler (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15252:9)
+    at renderRootConcurrent (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15227:15)
+    at performWorkOnRoot (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14525:13)
+    at performWorkOnRootViaSchedulerTask (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:16350:7)
+    at MessagePort.performWorkUntilDeadline (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/scheduler/cjs/scheduler.development.js:45:48)
+    at canvas (<anonymous>)
+    at Rain (webpack-internal:///(app-pages-browser)/./components/Rain.tsx:84:87)
+    at Approach (webpack-internal:///(app-pages-browser)/./components/sections/Approach.tsx:120:88)
+    at Home (rsc://React/Server/webpack-internal:///(rsc)/./app/page.tsx?37:25:88)

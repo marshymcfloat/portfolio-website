@@ -1,0 +1,104 @@
+[ 3173066ms] [ERROR] ./app/page.tsx
+Error:   x Merge conflict marker encountered.
+   ,-[C:\Programming\Portfolio\portfolio\app\page.tsx:1:1]
+ 1 | <<<<<<< HEAD
+   : ^^^^^^^
+ 2 | "use client";
+ 3 | 
+ 3 | import { useCallback, useMemo } from "react";
+   `----
+  x Unexpected token `main`. Expected jsx identifier
+    ,-[C:\Programming\Portfolio\portfolio\app\page.tsx:88:1]
+ 85 |   );
+ 86 | 
+ 87 |   return (
+ 88 |     <main className="h-screen w-full overflow-hidden flex flex-col lg:flex-row">
+    :      ^^^^
+ 89 |       {/* Left Panel - Hero Section */}
+ 90 |       <motion.div
+ 90 |         className="w-full lg:w-2/5 flex flex-col justify-center px-6 sm:px-10 lg:pl-16 lg:pr-8 pt-20 lg:pt-0 pb-6 lg:pb-0"
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/page.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/globals/intercept-console-error.js:49
+[ 3173067ms] [ERROR] ./app/project/[projectName]/page.tsx
+Error:   x Merge conflict marker encountered.
+   ,-[C:\Programming\Portfolio\portfolio\app\project\[projectName]\page.tsx:1:1]
+ 1 | <<<<<<< HEAD
+   : ^^^^^^^
+ 2 | "use client";
+ 3 | 
+ 3 | import { useState, useEffect } from "react";
+   `----
+  x Unexpected token `main`. Expected jsx identifier
+     ,-[C:\Programming\Portfolio\portfolio\app\project\[projectName]\page.tsx:112:1]
+ 109 |   }
+ 110 | 
+ 111 |   return (
+ 112 |     <main className="min-h-screen px-4 sm:px-6 lg:px-8 py-24 md:py-28">
+     :      ^^^^
+ 113 |       <motion.div
+ 114 |         className="max-w-6xl mx-auto"
+ 114 |         variants={containerVariants}
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/project/[projectName]/page.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/globals/intercept-console-error.js:49
+[ 3173989ms] [ERROR] ./app/page.tsx
+Error:   x Merge conflict marker encountered.
+   ,-[C:\Programming\Portfolio\portfolio\app\page.tsx:1:1]
+ 1 | <<<<<<< HEAD
+   : ^^^^^^^
+ 2 | "use client";
+ 3 | 
+ 3 | import { useCallback, useMemo } from "react";
+   `----
+  x Unexpected token `main`. Expected jsx identifier
+    ,-[C:\Programming\Portfolio\portfolio\app\page.tsx:88:1]
+ 85 |   );
+ 86 | 
+ 87 |   return (
+ 88 |     <main className="h-screen w-full overflow-hidden flex flex-col lg:flex-row">
+    :      ^^^^
+ 89 |       {/* Left Panel - Hero Section */}
+ 90 |       <motion.div
+ 90 |         className="w-full lg:w-2/5 flex flex-col justify-center px-6 sm:px-10 lg:pl-16 lg:pr-8 pt-20 lg:pt-0 pb-6 lg:pb-0"
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/page.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/globals/intercept-console-error.js:49
+[ 3173989ms] [ERROR] ./app/project/[projectName]/page.tsx
+Error:   x Merge conflict marker encountered.
+   ,-[C:\Programming\Portfolio\portfolio\app\project\[projectName]\page.tsx:1:1]
+ 1 | <<<<<<< HEAD
+   : ^^^^^^^
+ 2 | "use client";
+ 3 | 
+ 3 | import { useState, useEffect } from "react";
+   `----
+  x Unexpected token `main`. Expected jsx identifier
+     ,-[C:\Programming\Portfolio\portfolio\app\project\[projectName]\page.tsx:112:1]
+ 109 |   }
+ 110 | 
+ 111 |   return (
+ 112 |     <main className="min-h-screen px-4 sm:px-6 lg:px-8 py-24 md:py-28">
+     :      ^^^^
+ 113 |       <motion.div
+ 114 |         className="max-w-6xl mx-auto"
+ 114 |         variants={containerVariants}
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/project/[projectName]/page.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/globals/intercept-console-error.js:49

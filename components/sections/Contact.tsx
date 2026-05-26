@@ -134,9 +134,13 @@ export default function Contact() {
         </div>
 
         {/* footer */}
-        <div className="mt-20 md:mt-32 flex items-center justify-between font-mono text-[10px] uppercase tracking-[0.25em] text-mute">
-          <span>© {new Date().getFullYear()} Daniel Canoy</span>
-          <span>Built with Next.js + GSAP · Palawan</span>
+        <div className="mt-16 md:mt-32 pt-6 border-t border-line-soft flex flex-col md:flex-row md:items-center md:justify-between gap-3 md:gap-0 font-mono text-[10px] uppercase tracking-[0.2em] md:tracking-[0.25em] text-mute">
+          <span className="whitespace-nowrap">
+            © {new Date().getFullYear()} Daniel Canoy
+          </span>
+          <span className="whitespace-nowrap">
+            Built with Next.js + GSAP · Palawan
+          </span>
         </div>
       </div>
     </section>
